@@ -1,4 +1,5 @@
-import './App.css';
+import "./App.css";
+import Main from "./components/Main/Main";
 
 function App() {
   return (
@@ -13,8 +14,19 @@ function App() {
           </ul>
         </section>
       </header>
-      <h1>Protectoons</h1>
-      <footer></footer>
+      <Main />
+      <footer className="footer">
+        <span> © 2024 ProtecToons</span>
+        <section className="link-section">
+          <ul>
+            <li>Inst</li>
+            <li>Whatsapp</li>
+            <li>Telegram</li>
+            <li>Mail</li>
+          </ul>
+        </section>
+        <button>Back to top</button>
+      </footer>
     </div>
   );
 }
