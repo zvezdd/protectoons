@@ -1,5 +1,7 @@
 import "./App.css";
 import Main from "./components/Main/Main";
+import 'animate.css';
+
 
 function App() {
   return (
