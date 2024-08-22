@@ -1,0 +1,30 @@
+.about-us {
+    display: flex;
+    align-items: flex-start; /* Поднимает описание выше */
+    justify-content: flex-start; /* Оставляет заголовок и описание слева */
+    padding: 20px;
+    text-align: left;
+    background-color: deeppink;
+    height: 300px;
+  }
+  
+  .us {
+    font-size: 50px;
+    flex: 1;
+    margin-top: 15vh;
+    margin-left: 35vh;
+    font-weight: 600;
+    color: black;
+  }
+  
+  .desc {
+    font-size: 20px;
+    font-weight: 100;
+    flex: 1; 
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-right: 30vh;
+    max-width: 400px;
+    color: black;
+  }
+  

@@ -1,4 +1,5 @@
 import "./App.css";
+import Info from "./components/Info/Info";
 import Main from "./components/Main/Main";
 import 'animate.css';
 
@@ -17,6 +18,7 @@ function App() {
         </section>
       </header>
       <Main />
+      <Info/>
       <footer className="footer">
         <span> © 2024 ProtecToons</span>
         <section className="link-section">
