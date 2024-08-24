@@ -1,7 +1,7 @@
 .about-us {
     display: flex;
-    align-items: flex-start; /* Поднимает описание выше */
-    justify-content: flex-start; /* Оставляет заголовок и описание слева */
+    align-items: flex-start;
+    justify-content: flex-start;
     padding: 20px;
     text-align: left;
     background-color: deeppink;
@@ -18,13 +18,45 @@
   }
   
   .desc {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 100;
     flex: 1; 
     margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-bottom: 7vh;
     margin-right: 30vh;
-    max-width: 400px;
+    max-width: 800px;
     color: black;
+  }
+
+
+  .features {
+    height: 500px;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px; 
+  }
+  
+  .features .h1 {
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 120px; /* Увеличивает отступ между заголовком и остальными элементами */
+  }
+  
+  .rewards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 150px; /* Увеличивает отступы между элементами */
+    width: 100%; /* Растягивает контейнер для равномерного распределения колонок */
+    justify-items: center; /* Центрирует элементы внутри колонок */
+  }
+  
+  .rewards span {
+    color: black;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
   }
   
