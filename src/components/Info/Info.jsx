@@ -27,6 +27,15 @@ export default function Info() {
           <span>Interactive platform</span>
         </div>
       </div>
+
+      <div className="work">
+        <span>How does it work?</span>
+        <li>
+          <ul>Read the comics</ul>
+          <ul>Do the quiz</ul>
+          <ul>Get rewards</ul>
+        </li>
+      </div>
     </div>
   );
 }
