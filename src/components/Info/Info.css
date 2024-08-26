@@ -114,3 +114,17 @@
   flex: 1; /* Обеспечивает равную ширину для каждого пункта */
 }
 
+.plans {
+  height: 100px;
+  padding-top: 30px;
+  background-color: blueviolet;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.plans span {
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+}

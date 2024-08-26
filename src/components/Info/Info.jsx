@@ -36,6 +36,10 @@ export default function Info() {
           <ul>Get rewards</ul>
         </li>
       </div>
+
+      <div className="plans">
+        <span>Our pricing plans</span>
+      </div>
     </div>
   );
 }
