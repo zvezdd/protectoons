@@ -1,3 +1,9 @@
+.main {
+  background: url("../../../public/images/pop-art-comic-background-free-vector.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .title {
     margin: 25vh;

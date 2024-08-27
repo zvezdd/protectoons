@@ -4,7 +4,7 @@ import 'animate.css';
 
 export default function Main() {
   return (
-    <div>
+    <div className="main">
       <div className="title">
         <span 
           className="title1 animate__animated animate__bounceInUp" 

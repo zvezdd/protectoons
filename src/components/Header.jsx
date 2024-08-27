@@ -7,10 +7,10 @@ export default function Header() {
     <header className="header">
       <section className="ul-section">
         <ul>
-          <li> <Link to="/readcomics">Read Comics</Link> </li>
-          <li> <Link to="/takequiz"> Take a quiz</Link></li>
-          <li> <Link to="/rankings">View rankings</Link></li>
-          <li> <Link to="/chat">Chat</Link></li>
+          <li> <Link className="link" to="/readcomics"> Read Comics</Link> </li>
+          <li> <Link className="link" to="/takequiz"> Take a quiz</Link></li>
+          <li> <Link className="link" to="/rankings">View rankings</Link></li>
+          <li> <Link className="link" to="/chat">Chat</Link></li>
         </ul>
       </section>
     </header>

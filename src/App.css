@@ -8,10 +8,6 @@
   overflow-y: auto;
   scrollbar-width: none;
   color: white;
-  background: url("../public/images/pop-art-comic-background-free-vector.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .header {
@@ -36,6 +32,12 @@
   list-style: none;
   font-size: 18px;
   font-weight: 100;
+}
+.link {
+  font-size: 18px;
+  font-weight: 100;
+  color: #000;
+  text-decoration: none;
 }
 
 .title {
