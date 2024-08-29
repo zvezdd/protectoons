@@ -10,3 +10,26 @@
     overflow-y: auto;
     scrollbar-width: none;
 }
+
+.our-heroes {
+    margin-left: 100px;
+    text-align: left;
+}
+
+.comicstitle {
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 500px;
+    color: black;
+    
+}
+
+.comicssubtitle {
+    font-size: 20px;
+    font-weight: 100;
+    color: black;
+    width: 700px; /* Устанавливает фиксированную ширину текста */
+    max-width: 700px; /* Ограничивает ширину до 900 пикселей */
+    overflow: hidden; /* Обрезает текст, если он выходит за пределы */
+    text-overflow: ellipsis;
+}
